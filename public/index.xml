@@ -2,26 +2,22 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Thom murphy</title>
-    <link>http://replace-this-with-your-hugo-site.com/</link>
+    <link>https://kevinhowbrook.github.io/thommurphy/</link>
     <description>Recent content on Thom murphy</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
     <lastBuildDate>Sat, 01 Oct 2016 15:40:39 +0100</lastBuildDate>
-    <atom:link href="http://replace-this-with-your-hugo-site.com/index.xml" rel="self" type="application/rss+xml" />
+    <atom:link href="https://kevinhowbrook.github.io/thommurphy/index.xml" rel="self" type="application/rss+xml" />
     
     <item>
       <title>examsssple</title>
-      <link>http://replace-this-with-your-hugo-site.com/post/example/</link>
+      <link>https://kevinhowbrook.github.io/thommurphy/post/example/</link>
       <pubDate>Sat, 01 Oct 2016 15:40:39 +0100</pubDate>
       
-      <guid>http://replace-this-with-your-hugo-site.com/post/example/</guid>
+      <guid>https://kevinhowbrook.github.io/thommurphy/post/example/</guid>
       <description>
 
-&lt;h1 id=&#34;hi-therere:33daf49ce20a80b4fd65869c7f12f9d7&#34;&gt;hi therere&lt;/h1&gt;
-
-&lt;p&gt;&lt;img src=&#34;http://replace-this-with-your-hugo-site.com/static/images/project-images/1.jpg&#34; alt=&#34;Example image&#34; /&gt;
-&lt;img src=&#34;http://replace-this-with-your-hugo-site.com/static/images/project-images/2.jpg&#34; alt=&#34;Example image&#34; /&gt;
-&lt;img src=&#34;http://replace-this-with-your-hugo-site.com/static/images/project-images/3.jpg&#34; alt=&#34;Example image&#34; /&gt;&lt;/p&gt;
+&lt;h1 id=&#34;hi:33daf49ce20a80b4fd65869c7f12f9d7&#34;&gt;hi&lt;/h1&gt;
 </description>
     </item>
     

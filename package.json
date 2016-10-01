@@ -7,5 +7,23 @@
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "author": "",
-  "license": "ISC"
+  "license": "ISC",
+  "dependencies": {
+    "gulp": "^3.9.0",
+    "gulp-bless": "^3.1.0",
+    "gulp-concat": "^2.6.0",
+    "gulp-less": "^3.1.0",
+    "gulp-load-plugins": "^1.2.4",
+    "gulp-print": "^2.0.1",
+    "gulp-util": "^3.0.7",
+    "jquery": "^3.1.1",
+    "less-plugin-autoprefix": "^1.5.1",
+    "less-plugin-clean-css": "^1.5.1",
+    "owl.carousel": "^2.1.4",
+    "path": "^0.12.7"
+  },
+  "devDependencies": {
+    "gulp-livereload": "^3.8.1",
+    "gulp-minify": "0.0.14"
+  }
 }

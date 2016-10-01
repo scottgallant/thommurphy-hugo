@@ -1,12 +1,18 @@
   {{ partial "header.html" . }}
+  {{ $baseurl := .Site.BaseURL }}
+
   <div class="container">
 	<div class="page-header">
         <h1>{{ .Title }}</h1>
       </div> 
                 {{ .Content }} 
-                {{ range first 10 .Params.slides }}
-    <img src="/{{ . }}" class="img-responsive"></img>
-  {{ end }}
+
+<div id="owl-demo" class="owl-carousel owl-theme">
+ {{ range first 10 .Params.slides }}
+    <div class="item"><img src="{{ $baseurl }}/{{ . }}"></img>
+    </div>
+  {{ end }} 
+</div>
  </div>
 
   {{ partial "footer.html" . }}

@@ -8,4 +8,4 @@ slides = ["images/project-images/1.jpg","images/project-images/2.jpg"]
 
 +++
 
-# hi therere 
+# hi  
