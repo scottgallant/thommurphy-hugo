@@ -1,0 +1,4 @@
+baseurl = "http://local.tom.com"
+languageCode = "en-us"
+title = "Thom murphy"
+theme = "thom"
