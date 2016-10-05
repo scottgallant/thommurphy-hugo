@@ -44,7 +44,10 @@ gulp.task('less', function() {
 
 //js - libraries first
 gulp.task('js', function () {
-    gulp.src(['../../node_modules/owl.carousel/dist/owl.carousel.min.js','js/javascript.js'])
+    gulp.src(['../../node_modules/owl.carousel/dist/owl.carousel.min.js',
+      '../../node_modules/masonry-layout/dist/masonry.pkgd.min.js',
+      '../../node_modules/imagesloaded/imagesloaded.pkgd.min.js',
+      'js/javascript.js'])
         .pipe(concat('all.js'))
         .pipe(gulp.dest('static/js')); 
 });

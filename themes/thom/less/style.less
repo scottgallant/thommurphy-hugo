@@ -1,5 +1,11 @@
 @import (less) "../../node_modules/owl.carousel/dist/assets/owl.carousel.min.css";
 @import (less) "../../node_modules/owl.carousel/dist/assets/owl.theme.default.min.css";
+
+// Media query variables.
+@tablet:  ~"screen and (min-width:768px)";
+@normal:  ~"screen and (min-width:992px)";
+@wide:    ~"screen and (min-width:1200px)";
+
 /* Sticky footer styles
 -------------------------------------------------- */
 html {
@@ -9,6 +15,7 @@ html {
 body {
   /* Margin bottom by footer height */
   margin-bottom: 60px;
+  font-size:16px;
 }
 .footer {
   position: absolute;
@@ -26,15 +33,85 @@ body {
 
 .container {  
   width: auto;
-  max-width: 1080px;
+  max-width: 1200px;
   padding: 0 15px;
+}
+.site-header,footer{
+  padding:10px 10px;
+}
+.footer{
+  padding:10px;
+}
+.main-content{
+  padding-bottom:4em;
+  padding-top:2em;
 }
 .container .text-muted {
   margin: 20px 0;
+}
+.splash{
+  background-image:url('../images/splash.jpg');
+  position:absolute;
+  width:100%;
+  height:100%;
+  top:0;
+  left:0;
+
 }
 
 #owl-demo .item img{
     display: block;
     width: 100%;
     height: auto;
+}
+
+#owl-demo{
+.owl-dot{
+ // width:50px!important;
+  //height:50!important;
+background-size:cover!important;
+
+    span{
+      display: none!important;
+    }
+  }
+  // .owl-stage-outer{
+  //   @media @tablet{
+  //     width:70%;
+  //     float:left;
+  //   }
+  // }
+  .owl-dots{
+    // display:none;
+    // @media @tablet{
+    //   display: block;
+    // }
+  }
+}
+.grid{
+  .grid-item{
+  margin-bottom:40px;
+  img{
+    max-width:100%;
+    min-width:100%;
+    }
+  }
+}
+
+.page-header{
+  border-bottom:0;
+  text-align:center;
+  color:#ccc  ;
+}
+
+//single
+.project-info{
+  margin-bottom:1em;
+  ul.info{
+  list-style:none;
+  padding:0 0 0 0;
+  li{
+      padding-bottom:5px;
+    }
+  }
 }
