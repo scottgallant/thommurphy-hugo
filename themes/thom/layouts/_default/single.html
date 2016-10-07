@@ -14,7 +14,7 @@
         </div>
         <div class="gallery col-xs-12 col-sm-6 col-sm-push-1">
           <div id="owl-demo" class="owl-carousel owl-theme">
-            {{ range first 40 .Params.slides }}
+            {{ range.Params.slides }}
               <div class="item">
                 <img src="{{ $baseurl }}/{{ . }}"></img>
               </div>
