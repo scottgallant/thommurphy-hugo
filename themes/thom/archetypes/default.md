@@ -3,7 +3,7 @@ Description = ""
 Tags = []
 Categories = []
 thumbnail = ""
-slides = []
+slides = ['[]']
 
 client = ""
 customdate = ""
