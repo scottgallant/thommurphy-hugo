@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Thom murphy</title>
+    <link>https://kevinhowbrook.github.io/thommurphy/</link>
+    <description>Recent content on Thom murphy</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language>
+    <lastBuildDate>Wed, 05 Oct 2016 23:48:00 +0000</lastBuildDate>
+    <atom:link href="https://kevinhowbrook.github.io/thommurphy/index.xml" rel="self" type="application/rss+xml" />
+    
+    <item>
+      <title>Test 2</title>
+      <link>https://kevinhowbrook.github.io/thommurphy/post/test-2/</link>
+      <pubDate>Wed, 05 Oct 2016 23:48:00 +0000</pubDate>
+      
+      <guid>https://kevinhowbrook.github.io/thommurphy/post/test-2/</guid>
+      <description>&lt;p&gt;test&lt;/p&gt;
+</description>
+    </item>
+    
+    <item>
+      <title>Dave Sims</title>
+      <link>https://kevinhowbrook.github.io/thommurphy/post/dave-sims/</link>
+      <pubDate>Sun, 02 Oct 2016 01:02:15 +0100</pubDate>
+      
+      <guid>https://kevinhowbrook.github.io/thommurphy/post/dave-sims/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Alasdair Mclellen</title>
+      <link>https://kevinhowbrook.github.io/thommurphy/post/Alasdair-Mclellen/</link>
+      <pubDate>Sat, 01 Oct 2016 23:40:24 +0100</pubDate>
+      
+      <guid>https://kevinhowbrook.github.io/thommurphy/post/Alasdair-Mclellen/</guid>
+      <description></description>
+    </item>
+    
+  </channel>
+</rss>
